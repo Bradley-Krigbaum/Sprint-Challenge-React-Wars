@@ -10,9 +10,9 @@ const StarCard = ({ person }) => {
           <Card>
             <CardHeader>{person.name}</CardHeader>
             <CardBody>
-              <CardText>{person.gender}</CardText>
-              <CardText>{person.eye_color}</CardText>
-              <CardText>{person.birth_year}</CardText>
+              <CardText>gender: {person.gender}</CardText>
+              <CardText>eye color: {person.eye_color}</CardText>
+              <CardText>birth year: {person.birth_year}</CardText>
             </CardBody>
           </Card>
         </Col>
