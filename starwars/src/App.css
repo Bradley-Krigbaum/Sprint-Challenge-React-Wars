@@ -6,3 +6,14 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.col-12, .col-md-4, .col-xl-3 {
+  margin: 3%;
+}
+
+.card{
+  opacity: 0.92;
+}
+
+.card-header {
+  background-color: blue;
+}
